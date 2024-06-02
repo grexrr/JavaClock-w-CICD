@@ -7,10 +7,10 @@ import javax.swing.*;
 public class Clock {
 
 	public static void main(String[] args) {
-		if (args.length > 0 && args[0].equals("console")) {
-			startConsole();
-		} else {
+		if (args.length > 0 && args[0].equals("gui")) {
 			startGUI();
+		} else {
+			startConsole();
 		}
 		 
 	}
